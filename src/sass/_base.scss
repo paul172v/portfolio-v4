@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  line-height: 1.5;
+  font-weight: 400;
+  font-family: "Libre Baskerville", serif;
+  font-size: 62.5%;
+}
+
+a {
+  color: var(--color-link);
+}
+
+a:active,
+a:focus,
+a:hover {
+  color: var(--color-link--active);
+}

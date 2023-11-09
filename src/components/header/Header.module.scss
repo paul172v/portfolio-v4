@@ -1,0 +1,59 @@
+@import "../../sass/colors";
+
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(
+    to bottom right,
+    var(--color-background--1),
+    var(--color-background--2)
+  );
+  padding-bottom: 4rem;
+}
+
+.text-wrapper {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 0 0 2rem;
+}
+
+h1 {
+  color: var(--color-heading--1);
+  font-size: 2.5rem;
+}
+
+.header-text {
+  color: var(--color-heading--2);
+  font-size: 2rem;
+}
+
+.links {
+  font-size: 1.8rem;
+}
+
+.photo {
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  margin-top: 2rem;
+  border: 2px solid var(--color-heading--2);
+  max-width: 90%;
+}
+
+@media (orientation: landscape) {
+  header {
+    flex-direction: row;
+  }
+
+  .photo {
+    margin-left: 4rem;
+  }
+
+  .text-wrapper {
+    padding: 0;
+  }
+}
