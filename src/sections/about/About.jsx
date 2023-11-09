@@ -7,10 +7,10 @@ const About = () => {
         <h2>About Me</h2>
 
         <p>
-          👋 Hello there! I'm Paul, a passionate and self-taught web developer
-          with three years of hands-on experience. I have a deep-rooted love for
-          coding and am skilled in a range of technologies that span both
-          front-end and back-end development.
+          👋 Hello there! I&rsquo;m Paul, a passionate and self-taught web
+          developer with three years of hands-on experience. I have a
+          deep-rooted love for coding and am skilled in a range of technologies
+          that span both front-end and back-end development.
         </p>
 
         <h3>🛠️ Skills & Technologies</h3>
@@ -26,22 +26,23 @@ const About = () => {
         <h3>🌱 Continuous Learning</h3>
         <p>
           I believe in lifelong learning and have recently expanded my skill set
-          to include Node.js. I'm currently honing my abilities by creating
-          full-stack applications that solve real-world problems.
+          to include Node.js. I&rsquo;m currently honing my abilities by
+          creating full-stack applications that solve real-world problems.
         </p>
 
         <h3>🌍 Availability & Flexibility</h3>
         <p>
-          I'm actively seeking my first role in the industry and am available to
-          start immediately. Open to both remote work and relocation, I'm
-          flexible and willing to adapt to different work environments.
+          I&rsquo;m actively seeking my first role in the industry and am
+          available to start immediately. Open to both remote work and
+          relocation, I&rsquo;m flexible and willing to adapt to different work
+          environments.
         </p>
 
-        <h3>🤝 Let's Connect!</h3>
+        <h3>🤝 Let&rsquo;s Connect!</h3>
         <p>
-          I'm eager to bring my dedication and technical skills to a dynamic
-          team. If you're interested in collaborating or have any opportunities,
-          feel free to contact me.
+          I&rsquo;m eager to bring my dedication and technical skills to a
+          dynamic team. If you&rsquo;re interested in collaborating or have any
+          opportunities, feel free to contact me.
         </p>
       </div>
     </section>

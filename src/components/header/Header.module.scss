@@ -16,21 +16,43 @@ header {
 .text-wrapper {
   display: flex;
   flex-direction: column;
+  max-width: 90%;
   padding: 1rem 0 0 2rem;
+
+  background: linear-gradient(to right, #ff7300, rgb(255, 190, 68));
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
 }
 
 h1 {
-  color: var(--color-heading--1);
   font-size: 2.5rem;
 }
 
 .header-text {
-  color: var(--color-heading--2);
   font-size: 2rem;
+}
+
+.links-wrapper {
+  display: flex;
+  flex-direction: column;
+
+  background: linear-gradient(to right, #ff0000, rgb(252, 217, 217));
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
 }
 
 .links {
   font-size: 1.8rem;
+  margin-top: 0.5rem;
+  color: transparent;
+  text-decoration: none;
+}
+
+.icon {
+  color: white;
+  margin-right: 1rem;
 }
 
 .photo {
@@ -40,7 +62,6 @@ h1 {
   -ms-border-radius: 4px;
   -o-border-radius: 4px;
   margin-top: 2rem;
-  border: 2px solid var(--color-heading--2);
   max-width: 90%;
 }
 
