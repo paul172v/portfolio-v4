@@ -1,0 +1,46 @@
+.wrapper {
+  width: clamp(30rem, 30rem, 90%);
+  color: white;
+  margin: 0;
+  margin-top: 4rem;
+  padding: 2rem 2rem;
+  background: linear-gradient(
+    to bottom right,
+    var(--color-background--1),
+    var(--color-background--2)
+  );
+}
+
+.project-title {
+  margin: 1rem 0 0 0;
+}
+
+.image {
+  width: 100%;
+  border: 1px solid white;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+}
+
+.project-sub-heading {
+  font-size: 1.6rem;
+  margin-top: 1rem;
+}
+
+.project-features-ul {
+  list-style: disc;
+  display: flex;
+  flex-wrap: wrap;
+
+  .feature {
+    margin-left: 2rem;
+  }
+}
+
+.project-description {
+  font-size: 1.2rem;
+  margin-top: 1rem;
+}

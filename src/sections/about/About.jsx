@@ -4,7 +4,7 @@ const About = () => {
   return (
     <section className={classes["section-about"]}>
       <div className={classes["about-wrapper"]}>
-        <h2>About Me</h2>
+        <h2 className={classes["about-heading"]}>About Me</h2>
 
         <p>
           👋 Hello there! I&rsquo;m Paul, a passionate and self-taught web
@@ -15,8 +15,8 @@ const About = () => {
 
         <h3>🛠️ Skills & Technologies</h3>
         <ul>
-          <li>Front-end: HTML, CSS, JavaScript, React.js</li>
-          <li>Back-end: Node.js</li>
+          <li>Front-end: HTML, CSS, JavaScript, SASS, React.js</li>
+          <li>Back-end: Node.js, Express, Mongoose, Postman</li>
           <li>
             Full Stack Applications: Proficient in building end-to-end web
             solutions

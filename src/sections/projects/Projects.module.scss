@@ -1,0 +1,22 @@
+.section-projects {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 4rem;
+  width: 100%;
+  max-width: 192rem;
+}
+
+.projects-wrapper {
+  width: 80%;
+}
+
+.projects-heading {
+  text-align: center;
+}
+
+.u-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  column-gap: 3rem;
+}
