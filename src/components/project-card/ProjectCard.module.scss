@@ -12,7 +12,31 @@
 }
 
 .project-title {
-  margin: 1rem 0 0 0;
+  margin-top: 1rem;
+}
+
+.project-links-wrapper {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+
+  background: linear-gradient(to right, #ff0000, rgb(252, 217, 217));
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+
+  .project-link {
+    font-size: 1.4rem;
+    margin-top: 0.5rem;
+    color: transparent;
+    text-decoration: none;
+  }
+
+  .project-link:hover,
+  .project-link:focus,
+  .project-link:active {
+    color: white;
+  }
 }
 
 .image {

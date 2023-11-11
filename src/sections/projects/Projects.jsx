@@ -11,9 +11,13 @@ const Projects = () => {
           <ProjectCard
             image="/view-menus.png"
             title="The View Menus"
+            liveSite="https://172v-view-online-menus.netlify.app/"
+            frontEndCode="https://github.com/paul172v/view_menus"
+            backEndCode="https://github.com/paul172v/view-backend-server"
             features={[
               "Full Stack",
               "React.js",
+              "Conditional Rendering",
               "Node.js",
               "Responsive",
               "Filter",
@@ -24,6 +28,9 @@ const Projects = () => {
           <ProjectCard
             image="/view-interface.png"
             title="The View Interface"
+            liveSite="https://github.com/paul172v/view-menu-interface-form"
+            frontEndCode="https://172v-view-interface-form.netlify.app/"
+            backEndCode="https://github.com/paul172v/view-backend-server"
             features={[
               "Full Stack",
               "React.js",
