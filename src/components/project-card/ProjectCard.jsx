@@ -13,9 +13,11 @@ const ProjectCard = (props) => {
         <a href={props.frontEndCode} className={classes["project-link"]}>
           GitHub Front End
         </a>
-        <a href={props.backEndCode} className={classes["project-link"]}>
-          GitHub Back End
-        </a>
+        {props.backEndCode && (
+          <a href={props.backEndCode} className={classes["project-link"]}>
+            GitHub Back End
+          </a>
+        )}
       </div>
       <h4 className={classes["project-sub-heading"]}>Key Features:</h4>
       <ul className={classes["project-features-ul"]}>

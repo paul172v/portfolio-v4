@@ -9,6 +9,14 @@ const Projects = () => {
         <h2 className={classes["projects-heading"]}>Projects</h2>
         <div className={classes["u-row"]}>
           <ProjectCard
+            image="/kayleigh-parks-art.png"
+            title="Kayleigh Parks Art"
+            liveSite="https://kayleigh-parks-art.netlify.app/"
+            frontEndCode="https://github.com/paul172v/kayleigh-parks-art"
+            features={["React.js", "React-Scroll", "Modal Gallery", "SASS"]}
+            description="This is a basic one page brochure website that uses a real-world design. It's not very complicated but it is responsive, uses simple components and props. It uses a library called react-scroll to scroll to anchors and there is a hand coded modal gallery."
+          />
+          <ProjectCard
             image="/view-menus.png"
             title="The View Menus"
             liveSite="https://172v-view-online-menus.netlify.app/"
